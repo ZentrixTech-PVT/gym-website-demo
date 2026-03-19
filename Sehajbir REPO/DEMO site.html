@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One More Rep Gym</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <h1>ONE MORE REP</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#plans">Plans</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h2>Train Like a Beast</h2>
+    <p>Push your limits every single day</p>
+    <button onclick="scrollToContact()">Join Now</button>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="fade-in">
+  <h2>About Us</h2>
+  <p>
+    One More Rep is not just a gym — it’s a mindset. We help you transform your body
+    and build discipline with expert trainers and modern equipment.
+  </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="fade-in">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">💪 Personal Training</div>
+    <div class="card">🔥 Fat Loss</div>
+    <div class="card">🏋️ Strength Training</div>
+    <div class="card">🥗 Diet Plans</div>
+  </div>
+</section>
+
+<!-- PLANS -->
+<section id="plans" class="fade-in">
+  <h2>Membership Plans</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Basic</h3>
+      <p>₹999/month</p>
+    </div>
+    <div class="card">
+      <h3>Standard</h3>
+      <p>₹1999/month</p>
+    </div>
+    <div class="card">
+      <h3>Premium</h3>
+      <p>₹2999/month</p>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="fade-in">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e">
+    <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001ab">
+    <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61">
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="fade-in">
+  <h2>Contact Us</h2>
+  <p>📍 Kurali, Punjab</p>
+  <p>📞 9876543210</p>
+  <button onclick="showPopup()">Get Membership</button>
+</section>
+
+<!-- POPUP -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <h3>Join Now</h3>
+    <p>We will contact you soon!</p>
+    <button onclick="closePopup()">Close</button>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 One More Rep Gym</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
